@@ -1,0 +1,76 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+body {
+    font-size: 18px;
+    font-size: 1rem;
+    line-height: 1.55556;
+    max-width: 660px;
+    margin: 60px auto;
+}
+.audi-logo {
+    height: 48px;
+    width: auto;
+    display: block;
+    margin: 12px auto;
+}
+h1 {
+    background-color: #ededed;
+    padding: 12px;
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+p {
+    margin: 6px 0;
+}
+.prices {
+    margin: 32px auto;
+    width: 50%;
+}
+.prices .star-holder {
+    width: 60%;
+    margin: 0 auto;
+}
+.prices p {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0 0 18px 0;
+}
+.font-bold {
+    font-weight: bold;
+}
+.margin-bottom-l {
+    margin-bottom: 24px;
+}
+p.info-text, .next-holder, .vehicle-data {
+    padding-bottom: 24px;
+    border-bottom: 1px solid #ededed;
+    overflow: hidden;
+}
+.next-holder p {
+    margin-top: 0;
+}
+.next-holder p.button-text {
+    width: 30%;
+
+}
+.next-holder .btn {
+    background: #c75a32;
+    background-image: linear-gradient(to bottom, #c75a32, #c93030);
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1em;
+    padding: 7px 15px 7px 15px;
+    text-decoration: none;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+.vehicle-data p {
+    float: left;
+    width: 50%;
+}
+
