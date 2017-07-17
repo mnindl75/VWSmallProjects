@@ -1,0 +1,54 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+body {
+    font-size: 18px;
+    font-size: 1rem;
+    line-height: 1.55556;
+    max-width: 660px;
+    margin: 60px auto;
+}
+.audi-logo {
+    height: 48px;
+    width: auto;
+    display: block;
+    margin: 12px auto;
+}
+.header {
+    background-color: #ededed;
+    padding: 12px;
+}
+h1 {
+    font-size: 1.1em;
+    font-weight: normal;
+}
+p {
+    margin: 6px 0;
+}
+.font-bold {
+    font-weight: bold;
+}
+.margin-bottom-l {
+    margin-bottom: 24px;
+}
+.margin-bottom-xl {
+    margin-bottom: 32px;
+}
+.data {
+    overflow: hidden;
+}
+.data-item {
+    float: left;
+    width: 50%;
+}
+.data-item img {
+    width: 160px;
+}
+.data .data-item .data .data-item {
+    border-bottom: 1px solid #ededed;
+    padding: 12px 0;
+}
+
