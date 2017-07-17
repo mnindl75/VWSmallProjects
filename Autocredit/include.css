@@ -24,6 +24,11 @@ h1 {
     font-weight: normal;
     margin-bottom: 24px;
 }
+h2 {
+    font-size: 1.1em;
+    font-weight: normal;
+    margin-bottom: 12px;
+}
 p {
     margin: 6px 0;
 }
@@ -45,6 +50,9 @@ p {
 }
 .margin-bottom-l {
     margin-bottom: 24px;
+}
+.margin-bottom-xl {
+    margin-bottom: 32px;
 }
 p.info-text, .next-holder, .vehicle-data {
     padding-bottom: 24px;
@@ -72,5 +80,11 @@ p.info-text, .next-holder, .vehicle-data {
 .vehicle-data p {
     float: left;
     width: 50%;
+}
+table td {
+    padding: 12px;
+}
+table tr:nth-child(even) td {
+    background-color: #ededed;
 }
 
