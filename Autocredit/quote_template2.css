@@ -44,6 +44,10 @@ p {
     float: left;
     width: 50%;
 }
+.data-item-small {
+    width: 47%;
+    padding-left: 19px;
+}
 .data-item img {
     width: 160px;
 }
@@ -51,4 +55,15 @@ p {
     border-bottom: 1px solid #ededed;
     padding: 12px 0;
 }
-
+.data .data-item .data .data-item:nth-child(2) {
+    text-align: right;
+}
+ul {
+    list-style-type: none;
+    margin-left: -20px;
+}
+ul > li:before {
+    content: "-";
+    display: inline-block;
+    margin-right: 12px;
+}
